@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root {
+	--bg-color: #ffffff;
+	--txt-color: #000000;
+	--primary-col: #a51b1f;
+	--primary-op: #a51b1fe6;
+	--primary-cl: #a51b1f80;
+}
+
+.logo img {
+	width: 8%;
+	height: 8%;
+}
+
+h1, h2, header {
+	font-family: 'Bebas Neue', cursive;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2, header {
+	font-size: 28px;
+}
+
+mark {
+	background-color: var(--primary-cl);
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+
+body {
+	background-color: var(--bg-color);
+	margin: 5% 5% 5% 5%;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+a {
+	color: var(--primary-col);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--txt-color);
+}
+
+li {
+	list-style-type: square;
+}
+
+.overlay {
+	height: 100%;
+	width: 0%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: var(--primary-op);
+	overflow-x: hidden;
+	transition: all 0.3s;
+	color: var(--bg-color);
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	transition: all 0.3s;
+}
+
+.menu-items {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: var(--bg-color) !important;
+}
+
+.menu-items a:hover {
+	font-size: 120%;
+}
+
+.home-buttons {
+        display: flex;
+}
+
+.button-home, .button-home a {
+        border-style: solid;
+	border-color: var(--txt-color);
+	color: var(--primary-col) !important;
+        list-style-type: none;
+	flex: 1;
+	margin: 0.5% 0.5% 0.5% 0.5%;
+	padding: 1% 1% 1% 1%;
+	text-align: center;
+	font-weight: bold;
+	width: 25%;
+	transition: all 0.3s;
+}
+
+.button-home:hover {
+	transform: scale(1.05);
+	color: var(--txt-color) !important;
+	border-color: var(--primary-col);
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}	
+.sections {
+	width: auto;
+	flex-basis: auto;
+	flex: 1 1 50%;
+}
+
+.menu-button {
+	cursor: pointer;
+	font-size: 250%;
+	position: absolute;
+	top: -4.5%;
+	right: 4.5%;
+	color: var(--primary-col);
+}
+
+table {
+	margin: 0 0 2em 0;
+	width: 100%;
+}
+
+td {
+	border-collapse: collapse;
+	border-bottom: solid 2px var(--primary-col);
+}
+
+tr {
+	width: auto;
+	padding: 2%;
+}
+
+.button, .button a {
+	background-color: var(--txt-color);
+	color: var(--bg-color);
+	list-style-type: none !important;
+	margin: 1% 1% 1% -5%;
+	padding: 1% 0% 1% 1%;
+	text-align: center;
+	font-weight: bold;
+}
+
+footer {
+	background-color: var(--primary-cl);
+	padding: 0 5% 5% 5%;
+	margin: 0 -5% -5% -5%;
+}
+
+img {
+	height: 80%;
+	width: 80%;
+}
