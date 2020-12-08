@@ -160,6 +160,10 @@ tr {
 	font-weight: bold;
 }
 
+.button:hover {
+	transform: translate3d(0.75px, -0.75px, 0.75px)
+}
+
 footer {
 	background-color: var(--primary-cl);
 	padding: 0 5% 5% 5%;
