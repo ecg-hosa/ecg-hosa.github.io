@@ -19,6 +19,11 @@ h1, h2, header {
 	font-family: 'Bebas Neue', cursive;
 }
 
+header {
+	margin: -4%;
+	margin-bottom: 10%;
+}
+
 h1 {
 	font-size: 40px;
 }
@@ -173,4 +178,8 @@ footer {
 img {
 	height: 80%;
 	width: 80%;
+}
+
+.main {
+	margin-bottom: 10%;
 }
