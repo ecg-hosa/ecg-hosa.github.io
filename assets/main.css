@@ -163,6 +163,7 @@ tr {
 	padding: 1% 0% 1% 1%;
 	text-align: center;
 	font-weight: bold;
+	transition: all 1s;
 }
 
 .button:hover {
