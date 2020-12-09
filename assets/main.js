@@ -1,7 +1,7 @@
 "use strict";
 
 function openNav() {
-	document.getElementById("menu").style.width = "50%";
+	document.getElementById("menu").style.width = "25%";
 }
 
 function closeNav() {
