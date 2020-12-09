@@ -186,3 +186,8 @@ img {
 .main {
 	margin-bottom: 10%;
 }
+
+.caption {
+	font-weight: italic;
+	font-size: 80%;
+}
