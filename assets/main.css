@@ -147,12 +147,14 @@ table {
 
 td {
 	border-collapse: collapse;
+	padding: 1.5%;
 	border-bottom: solid 2px var(--primary-col);
 }
 
 tr {
 	width: auto;
-	padding: 2%;
+	padding: 1.5%;
+	border-collapse: collapse;
 }
 
 .button, .button a {
