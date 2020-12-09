@@ -88,7 +88,7 @@ li {
 .menu-items {
 	position: relative;
 	width: 100%;
-	text-align: right;
+	text-align: center;
 	color: var(--bg-color) !important;
 }
 
