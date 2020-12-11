@@ -190,3 +190,12 @@ img {
 	font-weight: italic;
 	font-size: 80%;
 }
+
+.media {
+	border-style: solid;
+	padding: 1% 1% 1% 1%;
+	margin: 10% 10% 10% 10%;
+	border-color: var(--primary-col);
+	justify-content: center;
+	text-align: center;
+}
