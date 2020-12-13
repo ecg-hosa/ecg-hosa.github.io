@@ -33,6 +33,14 @@
 <!--	<h3><a href="ecg-hosa.github.io/blog">HOSA Happenings</a></h3> -->
 <!--	<input type="text" id="search" onkeyup="searchFunction()" placeholder="Search ECG HOSA">
 -->
+	<script type="text/javascript">
+	document.getElementById('searchbar').onsubmit = function() {
+		window.location = 'http://www.google.com/search?q=site:dotslashtaylor.github.io ' + document.getElementById('test').value;
+		return false;
+	}
+	</script>
+	<form id="searchbar" class="search" method="get" action="source.html" /><input class="search" id="test" type="text" name="search2" size="10" maxlength="255">
+
 </div>
 </div>
 </div>
