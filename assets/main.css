@@ -97,21 +97,23 @@ li {
 }
 
 .home-buttons {
-        display: flex;
+   display: flex;
+	flex-flow: row wrap;
 }
 
 .button-home, .button-home a {
-        border-style: solid;
+   border-style: solid;
 	border-color: var(--txt-color);
 	color: var(--primary-col) !important;
-        list-style-type: none;
+   list-style-type: none;
 	flex: 1;
-	margin: 0.5% 0.5% 0.5% 0.5%;
-	padding: 1% 1% 1% 1%;
+	margin: 0.5%;
+	padding: 1%;
 	text-align: center;
 	font-weight: bold;
-	width: 25%;
+	width: 100%;	
 	transition: all 0.3s;
+	flex-basis: 25%;
 }
 
 .button-home:hover {
@@ -125,6 +127,7 @@ section {
 	flex-wrap: wrap;
 	justify-content: center;
 }	
+
 .sections {
 	width: auto;
 	flex-basis: auto;
