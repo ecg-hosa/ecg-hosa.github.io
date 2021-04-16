@@ -1,0 +1,68 @@
+<body>
+
+<style>
+	@import url('assets/styles.css');
+	header {
+		font-family: 'Bebas Neue', cursive;
+		font-size: 28px;
+	}
+	#home {
+		position: absolute;
+		left: 0;
+		top: 0;
+		padding: 2rem;
+		margin-bottom: 2rem;
+	}
+	.logo img {
+		width: 25px !important;
+	}
+	#menu {
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: 0;
+		margin-bottom:2rem;
+	}
+</style>
+
+
+<header>
+<div class="sections">
+
+	<section id="home">
+			<a href="index.html" class="logo">
+			<img src="assets/logo.svg" alt="Stethoscope Icon"> ECG HOSA</a>
+	</section>
+
+	<section>
+		<span style="cursor:pointer;" onclick="openNav()"><h1 class="menu-button">&#9776;</h1></span>
+	</section>
+
+</div>
+
+<div id="menu" class="overlay">
+	<a id="closebtn" class="menu-items" 
+		style="font-size: 300%;" href="javascript:void(0)" 
+		onclick="closeNav()">&times;</a>
+
+	<div class="menu-items">
+		<h3><a href="index.html">Home</a></h3>
+		<h3><a href="competition.html">Leadership Conferences</a></h3>
+		<h3><a href="service.html">Past Service Events</a></h3>
+		<h3><a href="achievements.html">Past Competitions</a></h3>
+		<h3><a href="resources.html">Resources</a></h3>
+		<h3><a href="board.html">Current Board Members</a></h3>
+		<!--	<h3><a href="ecg-hosa.github.io/blog">HOSA Happenings</a></h3> -->
+		
+		<!--<form action="https://google.com/search" target="_blank" type="GET">
+			<input type="search" placeholder="Search ECG HOSA" name="q">
+			<input type="Submit" value="Go">
+		</form>
+		
+		<script async src="https://cse.google.com/cse.js?cx=802394aa9ebfd018e"></script>
+		<div class="gcse-search"></div>
+		-->
+	</div>
+</div>
+</header>
+		
