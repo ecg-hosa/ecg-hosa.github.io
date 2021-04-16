@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 :root {
-	--bg-color: #ffffff;
-	--txt-color: #000000;
-	--primary-col: #a51b1f;
-	--primary-op: #a51b1fe6;
-	--primary-cl: #a51b1f80;
+	--bg-color: white;
+	--txt-color: black;
+	--primary-col: maroon;
+	--primary-op: maroon;
+	--primary-cl: maroon;
 }
 
 h1, h2, header {
@@ -98,8 +98,8 @@ li {
 
 .button-home, .button-home a {
    border-style: solid;
-	border-color: var(--txt-color);
-	color: var(--primary-col) !important;
+	color: var(--txt-color) !important;
+	border-color: var(--primary-col);
    list-style-type: none;
 	flex: 1;
 	margin: 0.5%;
@@ -113,8 +113,8 @@ li {
 
 .button-home:hover {
 	transform: scale(1.05);
-	color: var(--txt-color) !important;
-	border-color: var(--primary-col);
+	border-color: var(--txt-color);
+	color: var(--primary-col) !important;
 }
 
 section {
